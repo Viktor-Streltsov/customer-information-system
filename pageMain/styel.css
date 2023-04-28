@@ -147,8 +147,8 @@ img {
 
 .block-img {
     position: relative;
-    width: 53rem;
-    height: 31rem;
+    min-width: 53rem;
+    min-height: 31rem;
 }
 
 .gerl,.ellipse,.tv,.wifi,.vec1,.vec2,.vec3,.vec4,.what {
@@ -164,49 +164,49 @@ img {
 .gerl {
     z-index: 4;
     top: 20px;
-    right: 140px;
+    right: 130px;
 }
 
 .vec1 {
     z-index: 1;
     top: -15px;
-    left: 230px;
+    left: 380px;
 }
 
 .vec2 {
     z-index: 3;
     top: 33px;
-    left: 195px;
+    left: 343px;
 }
 
 .vec3 {
     z-index: 2;
     top: 0px;
-    left: 175px;
+    left: 325px;
 }
 
 .wifi {
     z-index: 5;
     top: 100px;
-    left: 245px;
+    left: 395px;
 }
 
 .tv {
     z-index: 6;
     top: 200px;
-    right: 110px;
+    right: 100px;
 }
 
 .ellipse {
     z-index: 7;
     top: 25px;
-    left: 315px;
+    left: 465px;
 }
 
 .what {
     z-index: 8;
-    top: 295px;
-    right: 109px;
+    top: 300px;
+    right: 100px;
 }
 
 .conteiner-tarif {
