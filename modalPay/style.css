@@ -76,8 +76,18 @@ a {
 }
 
 .btn {
-    padding: 1rem 4rem;
+    display: grid;
+    place-items: center;
+    width: 14rem;
+    height: 4rem;
+    font-weight: 700;
     color: #fff;
-    background: #6984F0;
+    background: #000;
+    text-transform: uppercase;
     border-radius: 60px;
+}
+
+.btn:hover {
+    background: #FFDE59;
+    color: #000;
 }
